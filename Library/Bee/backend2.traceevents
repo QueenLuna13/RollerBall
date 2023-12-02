@@ -1,0 +1,421 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701472221303674, "dur":129, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221303840, "dur":23875, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221327722, "dur":129, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221327889, "dur":735, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221332646, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1701472221332827, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1701472221328653, "dur":4494, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221333149, "dur":149356, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221482508, "dur":243, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221482751, "dur":109, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221483053, "dur":1915, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701472221328814, "dur":4341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701472221333158, "dur":6353, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701472221341052, "dur":800, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1701472221341857, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701472221341978, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701472221342228, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221342821, "dur":325, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221343147, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221343573, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221343672, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221343868, "dur":1098, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221344968, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221345078, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221345168, "dur":613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221345783, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221346170, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221346270, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701472221341856, "dur":4715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701472221347660, "dur":125853, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701472221480727, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701472221480726, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701472221480910, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1701472221328843, "dur":4319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701472221333169, "dur":1369, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701472221334539, "dur":5004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701472221339555, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701472221339547, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701472221339909, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701472221413532, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701472221416089, "dur":66412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221328876, "dur":4296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221333175, "dur":1413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221334588, "dur":4937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221339529, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1701472221339735, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221348327, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1701472221350280, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701472221350416, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221350629, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701472221352099, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1701472221352232, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221352805, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1701472221354140, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1701472221354139, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall.exe" }}
+,{ "pid":12345, "tid":3, "ts":1701472221354283, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall.exe" }}
+,{ "pid":12345, "tid":3, "ts":1701472221356304, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221360608, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221360695, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221362550, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221362687, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221364211, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221364292, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221366185, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221367763, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221367915, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221369575, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221369653, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221371567, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221371657, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221373777, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221373885, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221376196, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221376320, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221378570, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221378737, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221380693, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221380782, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221383041, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221383183, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221385489, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221385631, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221387714, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221387839, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221389992, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221390088, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221392193, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221392301, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221394567, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221394690, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221397134, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221397254, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221399680, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701472221399871, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701472221403115, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1701472221405592, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701472221409522, "dur":72976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701472221328895, "dur":4283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701472221333181, "dur":1363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701472221334544, "dur":5064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701472221339609, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701472221340045, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701472221439603, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701472221441906, "dur":40583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221328930, "dur":4254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221333186, "dur":1461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221334647, "dur":4890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221339540, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1701472221339758, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221384181, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1701472221386088, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701472221388420, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221388538, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701472221390698, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221390821, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701472221393316, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221393426, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701472221395692, "dur":384, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221396099, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701472221398656, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221398752, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701472221401615, "dur":1494, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701472221403158, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1701472221406369, "dur":76109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701472221328954, "dur":4234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701472221333191, "dur":1463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701472221334654, "dur":4885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701472221339542, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1701472221339856, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701472221400749, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1701472221403762, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701472221407692, "dur":74807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701472221328979, "dur":4215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701472221333197, "dur":1301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701472221334498, "dur":5021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701472221339546, "dur":706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701472221339525, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701472221340254, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701472221440727, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701472221442385, "dur":40099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221329000, "dur":4200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221333203, "dur":1326, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221334529, "dur":4999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221339546, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1701472221339531, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1701472221339835, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221372498, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1701472221374379, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221374518, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221376892, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221376998, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221378876, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221378955, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221380891, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221381154, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221383270, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221383451, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221385517, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221385610, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221387666, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221387763, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221390179, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221390274, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221392651, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221392775, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221395358, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221395475, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221398061, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701472221398150, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701472221401167, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1701472221405478, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1701472221408633, "dur":73870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701472221329024, "dur":4183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701472221333210, "dur":1175, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701472221334385, "dur":5170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701472221339567, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701472221339559, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701472221339993, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701472221432653, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701472221434330, "dur":48162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221329042, "dur":4171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221333214, "dur":6301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221339759, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221339835, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221340036, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221340264, "dur":563, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221340829, "dur":825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221341656, "dur":465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221342122, "dur":684, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221342807, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221343143, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221343554, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221343652, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221343851, "dur":1045, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221344897, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221345032, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221345131, "dur":633, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221345765, "dur":396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221346163, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221346281, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221346437, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":10, "ts":1701472221346516, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Alana\\Documents\\UnityGames!\\RollerBall\\RollerBall\\Library\\PackageCache\\com.unity.burst@1.8.8\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701472221339533, "dur":7098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":10, "ts":1701472221346631, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221348481, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221350328, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1701472221350326, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1701472221350446, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221350641, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1701472221352209, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221352207, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221352788, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221354926, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1701472221355073, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221355680, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1701472221359825, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221359934, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221363136, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221363311, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221365098, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221365185, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221367048, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221367174, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221369016, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221369090, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221370479, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221370565, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221372475, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221372759, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221375269, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221375435, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221377766, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221377878, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221379670, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221379809, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221381696, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221381824, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221383972, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221384256, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221387118, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221387247, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221389523, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221389642, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221391970, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221392293, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221394660, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221394750, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221397352, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221397521, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221399984, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221399983, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221400102, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701472221400203, "dur":19846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701472221420120, "dur":62389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701472221329064, "dur":4156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701472221333221, "dur":6329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701472221339552, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1701472221339897, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701472221421396, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1701472221422903, "dur":59608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221329083, "dur":4144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221333228, "dur":6303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221339534, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1701472221339726, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221354837, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1701472221356659, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221356846, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221360728, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221362553, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221362693, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221364916, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221365104, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221366819, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221366895, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221369200, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221369312, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221371001, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221371290, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221373399, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221373494, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221375794, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221375885, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221378237, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221378328, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221380349, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221380428, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221382161, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221382437, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221384244, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221384370, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221386330, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221386647, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221388776, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221388946, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221391332, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221391477, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221394015, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221394118, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221396426, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221396557, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221399558, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221399729, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701472221401935, "dur":1172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701472221403143, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1701472221406309, "dur":76171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221329110, "dur":4123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221333233, "dur":6284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221339549, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1701472221339526, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1701472221339718, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221341540, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1701472221345471, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1701472221345612, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221347717, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1701472221349467, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1701472221349464, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1701472221349636, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221350049, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1701472221351605, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1701472221351801, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1701472221353492, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221353491, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221353731, "dur":8135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221361977, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221362077, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221363848, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221363932, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221365664, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221365915, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221367744, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221367926, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221369608, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221369681, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221371267, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221371360, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221373379, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221373504, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221375803, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221375905, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221378160, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221378303, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221380424, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221380571, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221382555, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221382636, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221384581, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221384672, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221386968, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221387115, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221389278, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221389496, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221391739, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221391926, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221394420, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221394662, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221397093, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221397259, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221399890, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1701472221400200, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1701472221402462, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1701472221406387, "dur":76095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1701472221329132, "dur":4108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1701472221333241, "dur":6272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1701472221339538, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1701472221339984, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1701472221427104, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1701472221428368, "dur":54119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221329156, "dur":4091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221333248, "dur":6286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221339551, "dur":280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1701472221339537, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1701472221339833, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221364458, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1701472221366114, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221366193, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221369171, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221369242, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221370890, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221373075, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221373141, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221374952, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221375046, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221377301, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221377414, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221379243, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221379370, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221381083, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221381275, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221383727, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221383835, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221386124, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221388463, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221388546, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221390569, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221390780, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221393363, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221393577, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221395786, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221396090, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221398359, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1701472221398498, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1701472221401137, "dur":4238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1701472221405514, "dur":6477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1701472221412097, "dur":70398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221329176, "dur":4077, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221333253, "dur":6269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221339525, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1701472221339836, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221392513, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1701472221394378, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221394653, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1701472221396745, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221396841, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1701472221399788, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1701472221400193, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1701472221402417, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1701472221405991, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alana/Desktop/UnityBuilds!/RollerBallExtraCredit/RollerBall_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1701472221409465, "dur":73021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701472221488943, "dur":1416, "ph":"X", "name": "ProfilerWriteOutput" }
+,
